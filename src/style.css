@@ -280,6 +280,7 @@ button:focus {
   padding-left: 45px !important;
 }
 
+
 .main-name {
   color: #cd5ff8;
 }
@@ -305,9 +306,17 @@ button:focus {
   }
 }
 
+
+#mypic {
+  border-radius: 50%;
+  border: 3px solid rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 10px 3px rgba(119, 53, 136, 0.459) !important;
+  transition: all 0.5s ease 0s !important;
+ }
+
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 9rem !important;
 }
 
 @media (max-width: 767px) {
@@ -598,9 +607,6 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
 
 .resume-section {
   position: relative !important;
