@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiFigma,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -55,7 +56,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
-   
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col> */}
