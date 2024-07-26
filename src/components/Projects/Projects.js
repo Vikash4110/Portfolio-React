@@ -39,7 +39,7 @@ function Projects() {
               title="ChildMindWell"
               description="We empower caregivers with tools to nurture children's mental wellness through screenings, personalized guidance, insightful articles, and an inclusive community. Our features include screenings to identify areas of concern, guidance tailored to individual needs, informative articles to deepen understanding, comprehensive dashboards for tracking progress, diverse channels for engagement, and interactive sessions for meaningful interaction. "
               ghLink="https://github.com/Vikash4110/ChildMindWell"
-              demoLink="https://childmindwell.netlify.app"
+              demoLink="https://childmindwell.vercel.app"
             />
           </Col>
 
