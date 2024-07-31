@@ -7,6 +7,7 @@ import childmindwell from "../../Assets/Projects/childmindwell.png";
 import convertify from "../../Assets/Projects/convertify.png";
 import School from "../../Assets/school.png";
 import Sprint from "../../Assets/sprint.png";
+import Devbharal from "../../Assets/Projects/devbharal.png";
 
 
 function Projects() {
@@ -29,6 +30,18 @@ function Projects() {
               description=" We strive to enhance the educational experience by understanding student needs, curating valuable educational content, and crafting a user-friendly platform. Our features include access to comprehensive notes, previous year question papers (PYQs), syllabus information, recommended books, and curated YouTube channels. Empowering students with the resources they need to excel, we facilitate seamless learning and foster a culture of academic excellence. "
               ghLink="https://github.com/Vikash4110/PTU_STUDY_ZONE"
               demoLink="https://ptustudyzone.netlify.app/"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={childmindwell}
+              isBlog={false}
+              title="DevBharal"
+              description="DevBharal is a dynamic web application designed to streamline the development experience. It features secure user authentication with JWT and bcrypt, project management capabilities, and a fully responsive design. The interactive UI is built using React.js, Tailwind CSS, AOS animations, and Framer Motion. The robust backend, developed with Node.js and Express.js, stores data in MongoDB Atlas, with extensive API testing done using Postman. "
+              ghLink="https://github.com/Vikash4110/"
+              demoLink="https://devbharal.vercel.app"
             />
           </Col>
 
