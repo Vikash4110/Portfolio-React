@@ -1,8 +1,12 @@
-// postcss.config.js
 module.exports = {
-    plugins: [
-      require('tailwindcss'),
-      require('autoprefixer'),
-    ]
-  }
-  
+  plugins: {
+    autoprefixer: {
+      overrideBrowserslist: ['> 1%', 'last 2 versions', 'not dead'],
+      grid: true,
+    },
+    'postcss-replace': {
+      from: /color-adjust/g,
+      to: 'print-color-adjust',
+    },
+  },
+};

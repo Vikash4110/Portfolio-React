@@ -13,26 +13,36 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {/* Tech Stack Section */}
+        <div className="tech-stack" style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
+          {props.techStack.map((tech, index) => (
+            <img
+              key={index}
+              src={tech}
+              alt={`tech-stack-${index}`}
+              style={{ height: "25px", width: "auto", margin: "3px 5px", objectFit: "contain" }} // Adjusted height
+            />
+          ))}
+        </div>
 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+        {/* Horizontal Line */}
+        <hr style={{ margin: "10px 0" }} />
+
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <Button variant="primary" href={props.ghLink} target="_blank" style={{ marginRight: "10px" }}>
+            <BsGithub /> &nbsp;
+            {props.isBlog ? "Blog" : "GitHub"}
           </Button>
-        )}
+
+          {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+          {!props.isBlog && props.demoLink && (
+            <Button variant="primary" href={props.demoLink} target="_blank">
+              <CgWebsite /> &nbsp;
+              {"Demo"}
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );

@@ -1,0 +1,11 @@
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tech-stack-img {
+  height: 40px; /* Set the desired height */
+  margin: 0 5px; /* Add spacing between images */
+  object-fit: contain; /* Maintain aspect ratio */
+}

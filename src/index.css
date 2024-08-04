@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
   margin: 0;
@@ -5,4 +6,93 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+
+
+
+/* styles.css */
+
+body {
+  background-color: #1a1a2e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.project-section {
+  padding: 2rem 0;
+}
+
+.project-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-heading .purple {
+  color: #a855f7;
+}
+
+.project-card-view {
+  background-color: #282c34;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  transition: transform 0.3s;
+}
+
+.project-card-view:hover {
+  transform: translateY(-10px);
+}
+
+.project-card-view img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #444;
+}
+
+.project-card-view .card-body {
+  padding: 1rem;
+}
+
+.project-card-view .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card-view .card-text {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.project-card-view .btn {
+  margin-right: 0.5rem;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.tech-stack img {
+  width: 40px;
+  height: 40px;
+  margin: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .project-card-view {
+    padding: 0.5rem;
+  }
+
+  .project-card-view .card-title {
+    font-size: 1.25rem;
+  }
+
+  .project-card-view .card-text {
+    font-size: 0.9rem;
+  }
 }
