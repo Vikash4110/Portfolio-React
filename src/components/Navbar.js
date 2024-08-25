@@ -36,8 +36,6 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          {/* <img src={logo} className="img-fluid logo" alt="brand" />
- */}
          <h2 className="main-name">< Vikash Bharal /></h2>
         </Navbar.Brand>
         <Navbar.Toggle
