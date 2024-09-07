@@ -37,12 +37,37 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ptuwebsite}
-              techStack={[html,css,tailwindcss,js,canva,firebase]}
+              techStack={[react,express,mongo,node,tailwindcss,postman,restapi, canva]}
               isBlog={false}
               title="PTU Study Zone"
-              description="We strive to enhance the educational experience by understanding student needs, curating valuable educational content, and crafting a user-friendly platform. Our features include access to comprehensive notes, previous year question papers (PYQs), syllabus information, recommended books, and curated YouTube channels. Empowering students with the resources they need to excel, we facilitate seamless learning and foster a culture of academic excellence."
-              ghLink="https://github.com/Vikash4110/PTU_STUDY_ZONE"
-              demoLink="https://ptustudyzone.netlify.app/"
+              description="PTU Study Zone 2.0 is a comprehensive MERN stack platform developed to streamline academic resources for B.Tech CSE students. It centralizes essential materials such as syllabus, books, previous year question papers, and curated YouTube content, making them easily accessible. The platform also enables students to submit grievances directly to the HOD panel for resolution. With an admin panel for managing users, content, and student complaints, the platform ensures smooth operations through secure authentication, validation, and file handling. Built using React.js, Redux, Node.js, Express.js, and MongoDB Atlas, it is fully responsive and deployed on Vercel (frontend) and Render (backend), offering a seamless user experience across all devices."
+              ghLink=""
+              demoLink="https://ptustudyzone.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={School}
+              techStack={[html, css,react ,tailwindcss, node,canva,firebase, restapi, postman]}
+              isBlog={false}
+              title="Springdale Public School"
+              description="This project is a responsive website for Springdale Public School, designed and developed as part of an assignment from the company I applied for. The website showcases various sections including Academics, Admissions, Contact Us, and more. The project was completed within 6 hours of continuous hard work."
+              ghLink="https://github.com/Vikash4110/madrocketTechnologiesSchool"
+              demoLink="https://madrocket-technologies-school.vercel.app"
+            />
+          </Col>
+
+            
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Sprint}
+              techStack={[html, css,react ,tailwindcss, node,canva,firebase, restapi, postman]}
+              isBlog={false}
+              title="Sprint Digital"
+              description="During my internship at HopinMinds, my friend Sahil Jamwal and I were tasked with developing a comprehensive and fully responsive website. This project was designed to push our skills and knowledge, allowing us to apply and integrate a wide range of technologies and concepts in web development."
+              ghLink="https://github.com/Vikash4110/sprint_react_main_project"
+              demoLink="https://sprint-react-main-project-nine.vercel.app"
             />
           </Col>
 
@@ -82,29 +107,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Sprint}
-              techStack={[html, css,react ,tailwindcss, node,canva,firebase, restapi, postman]}
-              isBlog={false}
-              title="Sprint Digital"
-              description="During my internship at HopinMinds, my friend Sahil Jamwal and I were tasked with developing a comprehensive and fully responsive website. This project was designed to push our skills and knowledge, allowing us to apply and integrate a wide range of technologies and concepts in web development."
-              ghLink="https://github.com/Vikash4110/sprint_react_main_project"
-              demoLink="https://sprint-react-main-project-nine.vercel.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={School}
-              techStack={[html, css,react ,tailwindcss, node,canva,firebase, restapi, postman]}
-              isBlog={false}
-              title="Springdale Public School"
-              description="This project is a responsive website for Springdale Public School, designed and developed as part of an assignment from the company I applied for. The website showcases various sections including Academics, Admissions, Contact Us, and more. The project was completed within 6 hours of continuous hard work."
-              ghLink="https://github.com/Vikash4110/madrocketTechnologiesSchool"
-              demoLink="https://madrocket-technologies-school.vercel.app"
-            />
-          </Col>
+         
         </Row>
       </Container>
     </Container>
