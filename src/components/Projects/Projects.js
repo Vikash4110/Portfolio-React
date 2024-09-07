@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import ptuwebsite from "../../Assets/Projects/ptuwebsite.png";
+import ptuwebsite from "../../Assets/studyzone.png";
 import childmindwell from "../../Assets/Projects/childmindwell.png";
 import convertify from "../../Assets/Projects/convertify.png";
 import School from "../../Assets/school.png";
@@ -40,7 +40,7 @@ function Projects() {
               techStack={[react,express,mongo,node,tailwindcss,postman,restapi, canva]}
               isBlog={false}
               title="PTU Study Zone"
-              description="PTU Study Zone 2.0 is a comprehensive MERN stack platform developed to streamline academic resources for B.Tech CSE students. It centralizes essential materials such as syllabus, books, previous year question papers, and curated YouTube content, making them easily accessible. The platform also enables students to submit grievances directly to the HOD panel for resolution. With an admin panel for managing users, content, and student complaints, the platform ensures smooth operations through secure authentication, validation, and file handling. Built using React.js, Redux, Node.js, Express.js, and MongoDB Atlas, it is fully responsive and deployed on Vercel (frontend) and Render (backend), offering a seamless user experience across all devices."
+              description="PTU Study Zone 2.0 is a MERN stack platform for B.Tech CSE students, offering easy access to syllabus, books, PYQs, and YouTube content. It also allows grievance submissions to the HOD panel and includes an admin panel for managing content and users. Built with React, Node.js, and MongoDB, it is fully responsive and deployed on Vercel and Render for a seamless user experience across all devices."
               ghLink=""
               demoLink="https://ptustudyzone.vercel.app/"
             />
