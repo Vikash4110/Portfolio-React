@@ -8,6 +8,7 @@ import convertify from "../../Assets/Projects/convertify.png";
 import School from "../../Assets/school.png";
 import Sprint from "../../Assets/sprint.png";
 import Devbharal from "../../Assets/Projects/devbharal.png";
+import RatemyTutor from '../../Assets/Projects/ratemytutor.png';
 function Projects() {
 
   const html = "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white";
@@ -45,7 +46,17 @@ function Projects() {
               demoLink="https://ptustudyzone.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={RatemyTutor}
+              techStack={[react,express,mongo,node,tailwindcss,postman,restapi, canva]}
+              isBlog={false}
+              title="Rate My Tutor"
+              description="The Teacher Feedback System is a comprehensive platform designed to collect and analyze student feedback for each teacher, aiming to enhance the quality of teaching. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this full-stack application provides an intuitive interface for students, teachers, and admins to manage and assess feedback efficiently."
+              ghLink=""
+              demoLink="https://ratemytutor-ptu.vercel.app"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={School}
