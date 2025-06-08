@@ -83,8 +83,7 @@ function Projects() {
               ]}
               isBlog={false}
               title="Mentor Connect"
-              description="Engineered a React.js + Node.js web app with mentor-mentee matching, real-time chat (Socket.io), skill
-assessments, and job postings to bridge industry experts with professionals.Built MongoDB schemas for structured data storage, implemented JWT + bcryptjs for security, and integrated Google Calendar API for seamless session scheduling.Launched skill assessments (10+ domains), mentor blogs (Quill.js), and referral systems to enhance user engagementand professional development."
+              description="Engineered a React.js + Node.js web app with mentor-mentee matching, real-time chat (Socket.io), skill assessments, and job postings.Built MongoDB schemas for structured data storage, implemented JWT + bcryptjs for security, and integrated Google Calendar API for seamless session scheduling.Launched skill assessments (10+ domains), mentor blogs (Quill.js), and referral systems to enhance user engagementand professional development."
               ghLink=""
               demoLink="https://margdarshi.vercel.app/"
             />
